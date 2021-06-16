@@ -6,12 +6,12 @@ use Illuminate\Console\Command;
 
 class ExemplePackageCommand extends Command
 {
-    public $signature = 'exemple-package';
+    public $signature = 'exemple';
 
     public $description = 'My command';
 
     public function handle()
     {
-        $this->comment('All done');
+
     }
 }
