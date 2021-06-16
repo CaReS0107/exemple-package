@@ -12,6 +12,5 @@ class ExemplePackageCommand extends Command
 
     public function handle()
     {
-
     }
 }
