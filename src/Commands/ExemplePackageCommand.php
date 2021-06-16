@@ -12,5 +12,7 @@ class ExemplePackageCommand extends Command
 
     public function handle()
     {
+//        $text = config('exemple-package.command_output_text');
+//        $this->comment($text);
     }
 }
