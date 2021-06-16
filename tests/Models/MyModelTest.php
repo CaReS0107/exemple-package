@@ -9,7 +9,7 @@ class MyModelTest extends TestCase
 {
     public function test_can_create_a_model()
     {
-        /**@var MyModel $model */
+        /** @var MyModel $model */
         $model = MyModel::create(['name' => 'some']);
         $this->assertDatabaseCount('exemple', 1);
 

@@ -3,7 +3,6 @@
 
 namespace Cares0107\ExemplePackage\Model;
 
-
 use Illuminate\Database\Eloquent\Model;
 
 class MyModel extends Model

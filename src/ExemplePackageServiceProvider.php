@@ -2,8 +2,6 @@
 
 namespace Cares0107\ExemplePackage;
 
-use Binaryk\LaravelRestify\Http\Controllers\AuthController;
-use Binaryk\LaravelRestify\Http\Middleware\EnsureJsonApiHeaderMiddleware;
 use Cares0107\ExemplePackage\Commands\ExemplePackageCommand;
 use Cares0107\ExemplePackage\Http\Controllers\MyPackageController;
 use Illuminate\Support\Facades\Route;
@@ -25,13 +23,12 @@ class ExemplePackageServiceProvider extends PackageServiceProvider
             ->hasViews()
             ->hasMigration('create_exemple_table')
             ->hasCommand(ExemplePackageCommand::class);
-
     }
 
     protected function authRoutes(): void
     {
         Route::macro('exemple', function (string $prefix = null) {
-            Route::prefix($prefix)->group( function () {
+            Route::prefix($prefix)->group(function () {
                 Route::get('/', [MyPackageController::class, 'index']);
             });
         });

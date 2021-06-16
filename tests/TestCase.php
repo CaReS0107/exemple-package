@@ -2,7 +2,6 @@
 
 namespace Cares0107\ExemplePackage\Tests;
 
-use Binaryk\LaravelRestify\Tests\Fixtures\User\User;
 use Cares0107\ExemplePackage\ExemplePackageServiceProvider;
 use CreateExempleTable;
 use Illuminate\Database\Eloquent\Factories\Factory;
