@@ -3,7 +3,6 @@
 
 namespace VendorName\Skeleton\Tests\Feature;
 
-
 use VendorName\Skeleton\Tests\TestCase;
 
 class SkeletonComandTest extends TestCase
