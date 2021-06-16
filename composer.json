@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "cares0107/exemple-package",
+    "description": "This is my package ExemplePackage",
     "keywords": [
-        ":vendor_name",
+        "CaReS0107",
         "laravel",
-        "package_slug"
+        "exemple-package"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/cares0107/exemple-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Papuc Vasile",
+            "email": "vasile.papuc@binarcode.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Cares0107\\ExemplePackage\\": "src",
+            "Cares0107\\ExemplePackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Cares0107\\ExemplePackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Cares0107\\ExemplePackage\\ExemplePackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "ExemplePackage": "Cares0107\\ExemplePackage\\ExemplePackageFacade"
             }
         }
     },
