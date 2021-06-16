@@ -2,9 +2,9 @@
 
 namespace Cares0107\ExemplePackage\Tests;
 
+use Cares0107\ExemplePackage\ExemplePackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Cares0107\ExemplePackage\ExemplePackageServiceProvider;
 
 class TestCase extends Orchestra
 {

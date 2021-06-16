@@ -2,9 +2,9 @@
 
 namespace Cares0107\ExemplePackage;
 
+use Cares0107\ExemplePackage\Commands\ExemplePackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cares0107\ExemplePackage\Commands\ExemplePackageCommand;
 
 class ExemplePackageServiceProvider extends PackageServiceProvider
 {
